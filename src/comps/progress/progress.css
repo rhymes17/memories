@@ -1,0 +1,8 @@
+.progress__bar{
+    height: 5px;
+    margin: 0 auto;
+    background: var(--color-highlight);
+    border: 1px solid var(--border);
+    margin-top: 20px;
+    border-radius: 3px;
+}

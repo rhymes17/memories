@@ -1,0 +1,14 @@
+.img__grid{
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    /* border: 1px solid var(--border); */
+    /* padding: 1rem; */
+}
+
+@media screen and (max-width: 600px){
+    .img__grid{
+        grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,13 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---------- Media Query ---------- */
+@media screen and (max-width: 1024px){
+    
+}
+  
+@media screen and (max-width: 600px){
+    
+}

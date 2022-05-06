@@ -1,0 +1,29 @@
+.uploadForm{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+input[type ="file"]{
+    display: none;
+}
+
+span{
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-highlight);
+    padding: 0rem 0.55rem;
+    border-radius: 50%;
+    color: var(--color-highlight);
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+span:hover{
+    border-color: transparent;
+    color: var(--primary);
+    background: var(--color-highlight);
+    font-size: 1.6rem;
+    padding : 0rem 0.58rem;
+}
